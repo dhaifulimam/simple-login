@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f6f9;
+}
+
+.container {
+  padding: 1rem;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  border-radius: 1rem;
+  width: 30vw;
+  height: fit-content;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.formContainer {
+  margin: 0.5rem;
+}
+
+.formContainer label {
+  display: block;
+}
+
+.formContainer input {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  margin-top: 0.5rem;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+
+.container button {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 100%;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  background-color: blue;
+  border: none;
+  color: #fff;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.container button:hover {
+  background-color: #144272;
+}
+.formContainerLink {
+  margin: 1rem 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.formContainerLink a {
+  text-decoration: none;
+  color: blue;
+}
+
+.formContainerLink a:hover {
+  color: #144272;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 60vw;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100vw;
+  }
+}
